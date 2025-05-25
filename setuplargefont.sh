@@ -2,4 +2,4 @@
 apk add kbd
 sed -i 's/^consolefont=".*"$/consolefont="solar24x32.psfu.gz"/' /etc/conf.d/consolefont
 rc-update add consolefont boot
-rc-update consolefont restart
+rc-service consolefont restart
